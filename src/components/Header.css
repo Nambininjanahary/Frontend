@@ -1,0 +1,36 @@
+/* src/components/Header.css */
+.app-header {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  border-bottom: 1px solid #dee2e6;
+  color: white;
+  text-align: left;
+  margin-bottom: 20px;
+  position: fixed; /* Fixe le header en haut */
+  top: 0; /* Place le header en haut */
+  left: 0; /* Place le header à gauche */
+  width: 100%; /* Assure que le header prend toute la largeur */
+  z-index: 1000; /* Assure que le header est au-dessus des autres éléments */
+}
+  
+  .logo img {
+    height: 40px;
+    margin-right: 20px;
+  }
+  
+  .app-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #343a40;
+  }
+  .upload {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+input {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
